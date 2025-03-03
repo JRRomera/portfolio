@@ -14,8 +14,8 @@ WSDL: son opcionales y con contratos que describen las operaciones, rutas, pará
 
 */
 
-$uri = 'https://jromera.es/AgendaAPI/';
-$location = "https://jromera.es/AgendaAPI/server.php";
+$uri = '**';
+$location = "**";
 $options = [
     'uri'=> $uri,
     'exceptions'=> true, // captura de excepciones
