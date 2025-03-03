@@ -2,10 +2,10 @@
 
 class ConexionPDOModel{
     
-    private static $server = "db5017237178.hosting-data.io";
-    private static $username = "dbu2601731";
-    private static $pass = "Juanito2345*";
-    private static $db = "dbs13838421";
+    private static $server = "**";
+    private static $username = "**";
+    private static $pass = "**";
+    private static $db = "**";
     private static $conexion;
 
     static public function connect() {
