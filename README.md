@@ -22,22 +22,21 @@ Dentro del repositorio está alojado el código de la APP y del servidor SOAP.
 
 🔗 [Ver en producción](https://agenda.jromera.es) | [Ver código](https://github.com/JRRomera/portfolio/tree/main/proyecto_agenda)
 
-### 2️⃣ [Proyecto 2: Nombre del Proyecto](#)
-📝 **Descripción:** Breve descripción del segundo proyecto.
+### 2️⃣ [Proyecto 2: Web Portfolio](#)
+📝 **Descripción:** Una portada web basada en SPA maquetada con HTML5, diseñada con CSS3 y optimizada con JS.
 
-🔧 **Tecnologías:** `Angular` `Node.js` `Express` `MongoDB`
+🔧 **Tecnologías:** `HTML5` `CSS3` `JavaScript`
 
-🔗 [Ver en producción](#) | [Ver código](#)
+🔗 [Ver en producción](https://www.jromera.es) | [Ver código](https://github.com/JRRomera/portfolio/tree/main/proyecto%20portfolioweb)
 
 ## 📂 Estructura del Repositorio
 ```
 📁 JRROMERA/portfolio/
- ├── 📂 proyecto-1
- ├── 📂 proyecto-2
+ ├── 📂 proyecto portfolioweb
+ ├── 📂 proyecto_agenda
  ├── 📜 README.md
 
 ```
-
 
 ## 🤝 Conéctate conmigo
 Si tienes preguntas, sugerencias o simplemente quieres conectar, no dudes en contactarme:
