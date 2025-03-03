@@ -16,6 +16,8 @@ Me encanta aprender nuevas herramientas y mejorar mis habilidades cada día.
 ### 1️⃣ [Proyecto 1: Agenda](#)
 📝 **Descripción:** Una sencilla agenda de contactos que permite insertar, modificar, borrar y obtener los contactos almacenados en una base de datos externa. Una muestra del manejo del CRUD basandome en varios patrones de conexión distintos y en el soporte de un servicio API creado por mi.
 
+Dentro del repositorio está alojado el código de la APP y del servidor SOAP.
+
 🔧 **Tecnologías:** `HTML` `CSS` `PHP` `MySQL` 
 
 🔗 [Ver en producción](https://agenda.jromera.es) | [Ver código](https://github.com/JRRomera/portfolio/tree/main/proyecto_agenda)
