@@ -18,7 +18,7 @@ Me encanta aprender nuevas herramientas y mejorar mis habilidades cada día.
 
 🔧 **Tecnologías:** `HTML` `CSS` `PHP` `MySQL` 
 
-🔗 [Ver en producción](https://agenda.jromera.es) | [Ver código]()
+🔗 [Ver en producción](https://agenda.jromera.es) | [Ver código](https://github.com/JRRomera/portfolio/tree/main/proyecto_agenda)
 
 ### 2️⃣ [Proyecto 2: Nombre del Proyecto](#)
 📝 **Descripción:** Breve descripción del segundo proyecto.
