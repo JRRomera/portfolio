@@ -11,7 +11,7 @@ Este portfolio ha sido desarrollado utilizando las siguientes tecnologías:
 - **JavaScript (JS)**: Para la interactividad y la gestión de navegación dinámica sin recargas de página.
 - **Google Fonts**: Fuentes personalizadas para mejorar la estética del sitio.
 - **Git y GitHub**: Para el control de versiones y la gestión del código fuente.
-- **Hosting en IONOS**: Desplegado en un servidor web con soporte para PHP.
+- **Hosting en IONOS**: Desplegado en un servidor web con dominio personalizado.
 
 ## ✨ Características del proyecto
 
