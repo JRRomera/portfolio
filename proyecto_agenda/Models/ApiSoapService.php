@@ -5,8 +5,8 @@ class ApiSoapService{
     private static $conexionAPI = null;
     static public function connect() {
         $options = [
-            'location' => 'https://jromera.es/AgendaAPI/server.php',
-            'uri' => 'https://jromera.es/AgendaAPI/'
+            'location' => '**',
+            'uri' => '**'
         ];
         if (self::$conexionAPI === null){
             try{ 
