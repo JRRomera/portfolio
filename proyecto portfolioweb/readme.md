@@ -1,7 +1,7 @@
 
 # 📌 Portfolio de Desarrollador Web - José Ramón Romera Hernández
 
-Bienvenido a mi portfolio de desarrollador web, un proyecto diseñado para mostrar mi experiencia, habilidades y proyectos en el mundo del desarrollo de aplicaciones web. 
+Esta es la página de mi portfolio de desarrollador web, un proyecto diseñado para mostrar mi experiencia, habilidades y proyectos en el mundo del desarrollo de aplicaciones web. 
 
 ## 🚀 Tecnologías utilizadas
 
