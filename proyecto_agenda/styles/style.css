@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+fieldset {
+    background: white;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: auto;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3498db;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border-color: #3498db;
+    box-shadow: 0px 0px 5px rgba(52, 152, 219, 0.5);
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+}
+
+form[action="../home.php"] button {
+    background: #95a5a6;
+}
+
+form[action="../home.php"] button:hover {
+    background: #7f8c8d;
+}
+
+a {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+table {
+    width: 100%;
+    max-width: auto; 
+    table-layout: fixed;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    font-weight: 600;
+}
+
+td a, td button {
+    display: inline-block;
+    background: #e74c3c; /* Color rojo para ambos */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+td a:hover, td button:hover {
+    background: #c0392b; /* Oscurecemos el color al pasar el ratón */
+}
+
+td form {
+    display: inline; /* Para que el botón no se desplace */
+    margin: 0;
+}
+
+td button {
+    font-family: inherit; /* Para que coincida con el estilo general */
+}
