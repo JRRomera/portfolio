@@ -39,8 +39,9 @@ Me encanta aprender nuevas herramientas y mejorar mis habilidades cada día.
 
 ## 🤝 Conéctate conmigo
 Si tienes preguntas, sugerencias o simplemente quieres conectar, no dudes en contactarme:
-📧 Email: [business@jromera.es](mailto:business@jromera.es)
-💼 LinkedIn: [Tu Perfil](https://www.linkedin.com/in/joseramonromera/)
+
+📧 Email: [business@jromera.es](mailto:business@jromera.es)   
+💼 LinkedIn: [Mi perfil](https://www.linkedin.com/in/joseramonromera/)  
 
 ---
 
