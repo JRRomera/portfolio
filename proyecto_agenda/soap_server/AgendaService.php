@@ -7,10 +7,10 @@ class AgendaService
 
     public function __construct()
     {
-        $server = 'db5017237178.hosting-data.io';
-        $username = 'dbu2601731';
-        $pass = 'Juanito2345*';
-        $db = 'dbs13838421';
+        $server = '**';
+        $username = '**';
+        $pass = '**';
+        $db = '**';
 
         try {
             $this->conexion = new PDO("mysql:host=$server;dbname=$db;charset=utf8", $username, $pass);
