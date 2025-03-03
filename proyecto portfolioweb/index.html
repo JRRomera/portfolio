@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Ramón Romera Hernández</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Fira+Code:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <!-- Botón de menú para móviles -->
+    <div id="menu-button" onclick="toggleMenu()">☰</div>
+
+    <!-- Menú de navegación -->
+    <div id="menu">
+        <a onclick="toggleMenu(); showContent('inicio')">Inicio</a>
+        <a onclick="toggleMenu(); showContent('stack')">Stack</a>
+        <a onclick="toggleMenu(); showContent('proyectos')">Proyectos</a>
+        <a onclick="toggleMenu(); showContent('sobre-mi')">Sobre mí</a>
+        <a onclick="toggleMenu(); showContent('contacto')">Contacto</a>
+    </div>
+
+    <!-- Contenido de la web -->
+    <div id="content">
+        
+            <br><br>
+            <div id="inicio" class="section">
+                <div class="hero">
+                    <h1>¡Hola, soy <span>Jose Ramón Romera</span>!</h1>
+                    <p>Desarrollador de Aplicaciones Web | Apasionado por la tecnología y la innovación</p>
+                    <a onclick="showContent('proyectos')" class="btn">Ver Proyectos</a>
+                </div>
+            
+                <div class="about-preview">
+                    <h2>¿Quién soy?</h2>
+                    <p>Soy un desarrollador con formación en telecomunicaciones y una gran pasión por la informática. Me encanta enfrentar 
+                       nuevos desafíos, aprender constantemente y aportar soluciones eficientes.</p>
+                    <a onclick="showContent('sobre-mi')" class="btn secondary">Más sobre mí</a>                
+                </div>
+            </div>
+            
+
+        <div id="sobre-mi" class="section">
+            <br>
+                <h1>Sobre Mí</h1>
+            
+                <p><strong>Soy Jose Ramón Romera Hernández</strong>, desarrollador de aplicaciones web con una sólida base técnica 
+                    y una mentalidad analítica enfocada en la <strong>resolución de problemas</strong> y la <strong>mejora continua</strong>.</p>
+
+                    <a href="./assets/CVJoseRamonRomera.pdf" target="_blank" class="btn" >
+                        📄 Ver / Descargar CV
+                    </a>
+            
+                <h2>🎓 Mi formación</h2>
+                <p>Mi trayectoria académica ha sido diversa pero siempre ligada a la <strong>disciplina, la lógica y la tecnología</strong>:</p>
+                <ul>
+                    <li>Técnico Superior en <strong>Sistemas de Telecomunicaciones e Informáticos (STI)</strong>.</li>
+                    <li>Técnico Superior en <strong>Desarrollo de Aplicaciones Web (DAW)</strong>.</li>
+                    <li>Graduado en <strong>Ciencias de la Actividad Física y el Deporte</strong> por la Universidad de Granada (UGR).</li>
+                </ul>
+            
+                <h2>💻 Pasión por la tecnología</h2>
+                <p>Desde siempre, la informática ha sido parte de mi entorno. Me apasiona <strong>crear soluciones innovadoras</strong> y 
+                    enfrentar <strong>retos técnicos complejos</strong>, buscando siempre optimizar y mejorar procesos.</p>
+            
+                <h2>🥘 Más allá del código</h2>
+                <p>Además de la programación, la <strong>cocina</strong> es una de mis grandes pasiones. Me fascina experimentar con técnicas 
+                    modernas y diferentes estilos culinarios, lo que ha reforzado mi <strong>mentalidad perfeccionista y orientada al detalle</strong>.</p>
+            
+                <h2>🏆 Valores que me definen</h2>
+                <ul>
+                    <li><strong>Trabajo en equipo</strong>: Aprendido del baloncesto y el rugby federado.</li>
+                    <li><strong>Disciplina y constancia</strong>: Forjadas a lo largo de mi trayectoria académica y profesional.</li>
+                    <li><strong>Aprendizaje continuo</strong>: Siempre buscando mejorar y adaptarme a nuevas tecnologías.</li>
+                </ul>
+            
+                <p>Mi objetivo es seguir creciendo como desarrollador y aportar soluciones <strong>eficientes, creativas y funcionales</strong> 
+                    en cada proyecto en el que participe. </p>
+            
+
+            </div>
+            
+            <br>
+        <div id="stack" class="section">
+            
+            <h1>Mi Stack Tecnológico</h1>
+            <ul>
+                <li><strong>Angular</strong>: Desarrollo de aplicaciones frontend modernas con Angular 17.</li>
+                <li><strong>JavaScript (JS) y TypeScript (TS)</strong>: Programación avanzada en frontend y backend.</li>
+                <li><strong>PHP</strong>: Creación de APIs, desarrollo con PDO y servicios SOAP/REST.</li>
+                <li><strong>MySQL / MariaDB</strong>: Modelado, optimización y consultas SQL eficientes.</li>
+            </ul>
+
+            <h2 style="color:white">Otras tecnologías con las que trabajo:</h2>
+            <ul>
+                <li>HTML y CSS: Desarrollo de interfaces accesibles y responsivas.</li>
+                <li>IONIC: Creación de aplicaciones híbridas con Angular.</li>
+                <li>Java: Conocimientos en desarrollo backend y POO.</li>
+                <li>Python: Fundamentos y desarrollo de scripts para automatización.</li>
+                <li>Git y GitHub: Control de versiones y colaboración en equipo.</li>
+            </ul>
+        </div>
+        <br>
+        <div id="proyectos" class="section">
+            
+            <h1>Mis proyectos</h1>
+            <div class="card">
+                <h3>Agenda de contactos</h3>
+                <p><u>Tecnologías</u>: FullStack PHP </p>
+                <p><u>Descripción</u>: Agenda de contactos conectada a una base de datos a través de PDO + Servicio SOAP
+                    Servidor/Cliente creado desde cero. </p>
+                <div class="proyecto-link">
+                    <a href="https://agenda.jromera.es" target="_blank">
+                        <img src="./assets/proyecto.png" alt="Proyecto 1" style="width: 50px;">
+                    </a>
+                    <span> <- Visitar</span>
+                </div>
+                <a href="https://github.com/JRRomera/portfolio/tree/main/proyecto_agenda" target="_blank">Ver en
+                    GitHub</a>
+            </div>
+            <div class="card">
+                <h3>Portfolio de Desarrollador Web</h3>
+                <p><u>Tecnologías</u>: HTML, CSS, JavaScript </p>
+                <p><u>Descripción</u>: Portfolio de Desarrollador Web maquetado en formato SAP utilizando JavaScript para controlar el flujo del menú y diseño CSS puro. </p>
+                <div class="proyecto-link">
+                    <a href="https://www.jromera.es" target="_blank">
+                        <img src="./assets/proyecto.png" alt="Proyecto 2" style="width: 50px;">
+                    </a>
+                    <span> <- Visitar</span>
+                </div>
+                <a href="https://github.com/JRRomera/portfolio/tree/main/proyecto_agenda" target="_blank">Ver en
+                    GitHub</a>
+            </div>
+        </div>
+
+        <div id="contacto" class="section">
+            <br><br>
+            <h1>Contacto</h1>
+            <div class="contacto-card">
+                <p>Si deseas ponerte en contacto conmigo, completa el formulario y responderé lo antes posible.</p>
+
+                <form id="contactForm">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa">
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."
+                        required></textarea>
+
+                    <button type="button" onclick="enviarCorreo()">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <footer id="footer">
+            <p>&copy; 2025  Jose Ramón Romera Hernández     |    business@jromera.es</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("active");
+        }
+
+        function showContent(section) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(sec => sec.style.display = 'none');
+
+            const selectedSection = document.getElementById(section);
+            if (selectedSection) {
+                selectedSection.style.display = 'block';
+            }
+        }
+
+        showContent('inicio');
+    </script>
+
+    
+
+</body>
+
+</html>

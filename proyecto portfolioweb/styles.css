@@ -1,0 +1,635 @@
+/* Estilos generales */
+:root {
+    --color-violet5: #300350;
+    --color-mardigras: #94167F;
+    --color-cerisepink: #E93479;
+    --color-rajah: #F9AC53;
+    --color-persianrose: #F62E97;
+    --color-persianblue: #153CB4;
+}
+
+* {
+    font-family: "Audiowide", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--color-violet5);
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Menú lateral */
+#menu {
+    width: 250px;
+    background: rgb(93, 37, 158);
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+#menu a:hover {
+    background: #94167F;
+    transition: 0.3s;
+}
+
+/* Contenido principal */
+#content {
+    margin-left: 290px;
+    padding: 25px;
+    flex-grow: 1;
+    background-color: var(--color-violet5);
+}
+
+/* Secciones */
+.section {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Tarjetas */
+.card {
+    background: var(--color-rajah);
+    padding:15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--color-mardigras);
+    font-weight: 600;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Sección Stack y Proyectos */
+#stack,
+#proyectos,
+#contacto {
+    background: var(--color-mardigras);
+    color: black;
+    font-weight: 700;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#stack h1,
+#proyectos h1,
+#contacto h1 {
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Lista de Tecnologías */
+#stack ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#stack ul li {
+    background: var(--color-rajah);
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario de contacto */
+.contacto-card {
+    background: var(--color-rajah);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contacto-card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 90%;
+    max-width: 500px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
+    font-family: "Fira Code", monospace;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Botón Mejorado */
+button {
+    background: linear-gradient(135deg, var(--color-persianrose), var(--color-cerisepink));
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s, background 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(135deg, var(--color-cerisepink), var(--color-persianrose));
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------------- RESPONSIVE ------------------- */
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    #menu {
+        width: 200px;
+        font-size: 22px;
+    }
+    #content {
+        margin-left: 220px;
+    }
+    #stack, #proyectos, #contacto {
+        max-width: 90%;
+        padding: 20px;
+    }
+}
+
+/* Para móviles */
+@media (max-width: 768px) {
+    #menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    #menu a {
+        font-size: 18px;
+        padding: 5px;
+    }
+    #content {
+        margin-left: 0;
+        padding: 15px;
+    }
+    #stack, #proyectos, #contacto {
+        max-width: 100%;
+        padding: 20px;
+    }
+    input, textarea {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+}
+
+/* Botón de menú hamburguesa */
+#menu-button {
+    display: none;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background: var(--color-persianrose);
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Menú lateral normal en PC */
+#menu {
+    width: 250px;
+    background: rgb(93, 37, 158);
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+/* Para móviles: el menú está oculto por defecto */
+/* Botón de menú hamburguesa */
+#menu-button {
+    display: none;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background: var(--color-persianrose);
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001; /* Asegura que está por encima del contenido */
+}
+
+/* Menú lateral fijo en PC */
+#menu {
+    width: 250px;
+    background: rgb(93, 37, 158);
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Para móviles: menú oculto por defecto */
+/* Botón de menú hamburguesa */
+#menu-button {
+    display: none;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background: var(--color-persianrose);
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Menú lateral */
+#menu {
+    width: 250px;
+    background: rgb(93, 37, 158);
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Para móviles: el menú está oculto por defecto */
+@media (max-width: 768px) {
+    #menu {
+        transform: translateX(-100%);
+        width: 250px;
+        background: var(--color-mardigras);
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #menu.active {
+        transform: translateX(0);
+    }
+
+    #menu-button {
+        display: block;
+    }
+
+    #content {
+        margin-left: 0;
+        padding: 20px;
+    }
+}
+
+/* Estilos para la sección "Sobre Mí" */
+#sobre-mi {
+    background: #300350; /* Mantiene el fondo oscuro */
+    color: #ffffff; /* Texto blanco para mejor contraste */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white;
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: left;
+    line-height: 1.7;
+}
+
+/* Estilos para los títulos */
+#sobre-mi h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #F62E97; /* Color llamativo */
+    margin-bottom: 20px;
+}
+
+#sobre-mi h2 {
+    font-size: 28px;
+    margin-top: 25px;
+    color: #F9AC53; /* Color vibrante */
+}
+
+/* Párrafos más legibles */
+#sobre-mi p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para listas */
+#sobre-mi ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#sobre-mi ul li {
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Efecto al pasar el mouse por los elementos de la lista */
+#sobre-mi ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+}
+
+
+/* Estilos para la página de inicio */
+#inicio {
+    background: #300350; /* Fondo oscuro elegante */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Hero Section (Mensaje principal) */
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #F62E97; /* Color llamativo */
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    background: #F62E97;
+    color: white;
+    padding: 12px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #F9AC53;
+}
+
+/* Sección "¿Quién soy?" */
+.about-preview {
+    max-width: 700px;
+    margin: 60px auto 0;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: slideUp 1.5s ease-in-out;
+}
+
+.about-preview h2 {
+    font-size: 32px;
+    color: #F9AC53;
+}
+
+.about-preview p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn.secondary {
+    background: #94167F;
+}
+
+.btn.secondary:hover {
+    background: #F62E97;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .about-preview h2 {
+        font-size: 28px;
+    }
+
+    .about-preview p {
+        font-size: 18px;
+    }
+}
+
+
+/* Estilos generales de los botones */
+.btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #F62E97, #94167F); /* Degradado llamativo */
+    color: white;
+    padding: 12px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto al pasar el mouse */
+.btn:hover {
+    background: linear-gradient(135deg, #F9AC53, #F62E97);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo de los botones secundarios */
+.btn.secondary {
+    background: linear-gradient(135deg, #153CB4, #300350);
+}
+
+.btn.secondary:hover {
+    background: linear-gradient(135deg, #300350, #94167F);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .btn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+
+/* Footer fijo en la parte baja */
+#footer {
+    position: fixed;
+    padding: 15px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-mardigras);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustar margen inferior del contenido para no taparlo con el footer */
+#content {
+    padding-bottom: 60px; /* Espacio para que el footer no lo cubra */
+}
+
+/* Responsive: Reducir padding en móviles */
+@media (max-width: 768px) {
+    #footer {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+}
