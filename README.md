@@ -1,6 +1,6 @@
 # José Ramón Romera Hernández
 
-¡Bienvenido a mi portfolio como desarrollador junior en Desarrollo de Aplicaciones Web (DAW)! Aquí encontrarás una selección de mis proyectos más destacados, donde combino tecnología, creatividad y buenas prácticas para ofrecer soluciones funcionales y bien estructuradas. 
+¡Bienvenido a mi portal de proyectos como desarrollador junior en Desarrollo de Aplicaciones Web (DAW)! Aquí encontrarás una selección de mis proyectos más destacados, donde combino tecnología, creatividad y buenas prácticas para ofrecer soluciones funcionales y bien estructuradas. 
 
 ## 🌟 Sobre mí
 Soy un apasionado del desarrollo web, con experiencia en tecnologías como:
