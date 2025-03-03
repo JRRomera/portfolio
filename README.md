@@ -14,7 +14,7 @@ Me encanta aprender nuevas herramientas y mejorar mis habilidades cada día.
 ## 📌 Proyectos Destacados
 
 ### 1️⃣ [Proyecto 1: Agenda](#)
-📝 **Descripción:** Breve descripción del proyecto. ¿Qué problema soluciona? ¿Qué tecnologías usa?
+📝 **Descripción:** Una sencilla agenda de contactos que permite insertar, modificar, borrar y obtener los contactos almacenados en una base de datos externa. Una muestra del manejo del CRUD basandome en varios patrones de conexión distintos y en el soporte de un servicio API creado por mi.
 
 🔧 **Tecnologías:** `HTML` `CSS` `PHP` `MySQL` 
 
