@@ -4,7 +4,7 @@ Este proyecto es una agenda de contactos desarrollada en PHP que implementa dist
 
 El desarrollo se basa en el **patrón Modelo-Vista-Controlador (MVC)** para una mejor separación de responsabilidades y mantenimiento del código.
 
-## 🚀 Características
+## 📋 Características
 
 - 📌 Conexión a la base de datos utilizando **PDO** y **MySQLi**.
 - 📌 Implementación de operaciones **CRUD** con acceso directo a la base de datos.
@@ -20,3 +20,15 @@ El desarrollo se basa en el **patrón Modelo-Vista-Controlador (MVC)** para una 
 - **PDO y MySQLi** (Manejo de base de datos en PHP)
 - **SOAP** (Implementación de servicio web)
 - **HTML/CSS/JavaScript** (Interfaz de usuario básica)
+
+## 🚀 Despliegue
+
+Este portfolio está disponible en línea y puedes verlo en vivo en:
+🔗 **[www.jromera.es](https://www.jromera.es)**
+
+
+## 📞 Contacto
+Si te interesa colaborar o simplemente quieres ponerte en contacto conmigo, puedes hacerlo a través de:
+
+📧 **business@jromera.es**  
+💼 [LinkedIn](https://www.linkedin.com/in/joseramonromera)
