@@ -23,8 +23,8 @@ El desarrollo se basa en el **patrón Modelo-Vista-Controlador (MVC)** para una 
 
 ## 🚀 Despliegue
 
-Este portfolio está disponible en línea y puedes verlo en vivo en:
-🔗 **[www.jromera.es](https://www.jromera.es)**
+Este proyecto está disponible en línea y puedes verlo en vivo en:
+🔗 **[Proyecto Agenda](https://agenda.jromera.es)**
 
 
 ## 📞 Contacto
